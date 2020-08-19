@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>nxtBase-chatbot</title>
+		<!--place this script to web page for chatbot-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <!--place this script to web page for chatbot-->
+		<script id="sap-ui-bootstrap"
+			src="resources/sap-ui-core.js"
+			data-sap-ui-theme="sap_fiori_3"
+			data-sap-ui-resourceroots='{"com.nxtbase.nxtBase-chatbot": "./"}'
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
+			data-sap-ui-async="true"
+			data-sap-ui-frameOptions="trusted">
+		</script>
+	</head>
+	<body class="sapUiBody">
+		<div data-sap-ui-component data-name="com.nxtbase.nxtBase-chatbot" data-id="container" data-settings='{"id" : "nxtBase-chatbot"}'>
+			<!--place this script to web page for chatbot-->
+			<script src="webchat.js"
+               channelId="6252baa1-d46d-461d-91e0-490471262123"
+token="45de158c6bf144bbfe5883157765bbc4"
+                id="cai-webchat" voice=true
+                ></script>
+				<!--place this script to web page for chatbot-->
+		</div>
+	</body>
+</html>
